@@ -1,9 +1,9 @@
-﻿<Window x:Class="Vilagjarvany.MainWindow"
+﻿<Window x:Class="vilagjarvany.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Vilagjarvany"
+        xmlns:local="clr-namespace:vilagjarvany"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600">
     <Grid>
@@ -18,11 +18,17 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Label Grid.ColumnSpan="2" FontSize="25" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalAlignment="Center">Világjárványok Története és hatásai</Label>
-        <ListBox Grid.Column="0" Grid.Row="1" Grid.RowSpan="4" Margin="10" Height="320" Width="350" Name="lista"></ListBox>
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" Margin="10">
-            <Button Name="adatokbe" Content="Adatok betöltese" Height="30" Width="150" Click="" Margin="10"></Button>
-            <Button Name="szures" Content="Adatok szűrése" Height="30" Width="150" Click="" Margin="10"></Button>
-            <Button Name="statisztika" Content="Adatok betöltese" Height="30" Width="150" Click="" Margin="10"></Button>
+        <ListBox Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Name="lista" Width="350" Margin="10" Height="200"></ListBox>
+        <StackPanel Grid.Column="1" Grid.Row="1" Grid.RowSpan="3">
+            <Button Name="adatokbe" Content="Adatok betöltese" Height="30" Width="150" Click="adatokbe_Click" Margin="10"></Button>
+            <Button Name="szures" Content="A legsúlyosabb Járványok" Height="30" Width="150" Click="szures_Click" Margin="10"></Button>
+            <Button Name="statisztika" Content="Statisztika" Height="30" Width="150" Click="statisztika_Click" Margin="10"></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Label FontSize="15" VerticalAlignment="Center">Év alapú keresés</Label>
+            <TextBox Width="250" Height="30" Name="bekeres" Margin="10"></TextBox>
+            <Button Name="kereses" Content="Keresés" Height="30" Width="150" Click="kereses_Click" Margin="10"></Button>
+            
         </StackPanel>
     </Grid>
 </Window>
