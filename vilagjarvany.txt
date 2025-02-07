@@ -1,0 +1,24 @@
+Járvány neve;Kezdési dátum;Befejezési dátum;Áldozatok száma;Egyéb adatok
+Spanyolnátha;1918;1920;50000000;Influenza vírus
+Fekete halál;1347;1351;75000000;Bubópestis
+COVID-19;2019;2023;7000000;Koronavírus
+H1N1;2009;2010;284000;Új influenzavírus
+SARS;2002;2003;774;Koronavírus
+MERS;2012;2019;858;Koronavírus
+Ázsiai influenza;1957;1958;1000000;Influenza vírus
+Hongkongi influenza;1968;1969;1000000;Influenza vírus
+Kolera;1852;1860;1000000;Vibrio cholerae baktérium
+Kolera;1829;1851;1000000;Vibrio cholerae baktérium
+Kolera;1863;1875;1000000;Vibrio cholerae baktérium
+Kolera;1881;1896;1000000;Vibrio cholerae baktérium
+Kolera;1899;1923;1000000;Vibrio cholerae baktérium
+Kolera;1961;1975;1000000;Vibrio cholerae baktérium
+Kolera;1966;1967;1000000;Vibrio cholerae baktérium
+Kolera;1968;1975;1000000;Vibrio cholerae baktérium
+Ebola;2014;2016;11325;Ebola vírus
+Zika;2015;2016;0;Zika vírus
+Madárinfluenza;2003;2021;456;Influenza A vírus
+Nyugat-nílusi vírus;1999;2021;2867;Flavivírus
+Hantavírus;1993;2021;728;Hantavírus
+Marburg vírus;1967;2021;466;Filovírus
+Lassa láz;1969;2021;189;Arenavírus
